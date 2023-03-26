@@ -1,5 +1,12 @@
 # docker-AAXtoMP3
 
+TODO:
+
+- [x] publish container to DH  
+- [x] Add container to Makefile
+- [] add full docker command to makefile
+- [] add 'chapters' command to makefile
+
 A dockerized [AAXtoMP3](https://github.com/KrumpetPirate/AAXtoMP3).
 
 AAXtoMP3 is great for converting Audible files to MP3 so I can use my

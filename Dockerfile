@@ -15,8 +15,8 @@ RUN apk add \
     libmediaart \
     mediainfo
 
-RUN git clone https://github.com/KrumpetPirate/AAXtoMP3 /opt/AAXtoMP3
+RUN git clone https://github.com/KrumpetPirate/AAXtoMP3 /opt/AAXtoMP3 \
+    && mkdir /opt/AAXtoMP3/input
 
 
-
-ENTRYPOINT /bin/bash AAXtoMP3
+CMD /bin/bash AAXtoMP3
